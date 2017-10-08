@@ -28,7 +28,7 @@
                  [com.impossibl.pgjdbc-ng/pgjdbc-ng "0.7.1"]
                  [org.xerial/sqlite-jdbc "3.16.1"]
                  ;; if you have the MS driver in your local repo
-                 [sqljdbc4 "4.0"]]
+                 [com.microsoft.sqlserver/sqljdbc4 "4.0"]]
 
   :profiles {:1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
              :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]]}
